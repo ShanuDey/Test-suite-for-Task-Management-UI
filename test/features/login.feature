@@ -1,12 +1,11 @@
-Feature: The Internet Guinea Pig Website
+Feature: This is for Login page test automation
 
-  Scenario Outline: As a user, I can log into the secure area
-
+  Scenario Outline: Verify only login correct user credential can access dashboard page
     Given I am on the login page
-    When I login with <username> and <password>
-    Then I should see a flash message saying <message>
+    When I login with <email> and <password>
+    Then I should see a toast message saying <message>
 
     Examples:
-      | username | password             | message                        |
-      | tomsmith | SuperSecretPassword! | You logged into a secure area! |
-      | foobar   | barfoo               | Your username is invalid!      |
+      | email          | password             | message             |
+      | shanu@test.com | SuperSecretPassword! | Login Failed !!     |
+      | test@test.com  | testpassword         | Login Successful !! |
