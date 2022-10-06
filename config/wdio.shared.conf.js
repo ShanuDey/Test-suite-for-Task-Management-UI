@@ -95,7 +95,7 @@ exports.config = {
   // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
   // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
   // gets prepended directly.
-  baseUrl: "https://the-internet.herokuapp.com",
+  baseUrl: "https://shanudey.github.io/task-management-ui/#",
   //
   // Default timeout for all waitFor* commands.
   waitforTimeout: 10000,
