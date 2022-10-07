@@ -16,7 +16,7 @@ When(/^I login with (.*) and (.*)$/, async (username, password) => {
 });
 
 Then(/^I should see a toast message saying (.*)$/, async (message) => {
-    await expect(CommonPage.toast).toBeExisting();
+    await expect(CommonPage.toast).toBeDisplayed();
     await expect(CommonPage.toast).toHaveTextContaining(message);
 });
 

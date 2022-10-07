@@ -30,4 +30,8 @@ exports.config = {
       },
     },
   ],
+
+  onComplete: function () { 
+    console.log('Test Execution Completed');
+  }
 };
