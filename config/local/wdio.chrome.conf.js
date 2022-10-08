@@ -1,4 +1,4 @@
-const {config} = require("../wdio.shared.conf");
+const { config } = require("../wdio.shared.conf");
 
 exports.config = {
   ...config,
@@ -17,4 +17,9 @@ exports.config = {
       // excludeDriverLogs: ['bugreport', 'server'],
     },
   ],
+  baseUrl: "http://localhost:3000/task-management-ui#",
+  cucumberOpts: {
+    ...config.cucumberOpts,
+    tagExpression: "@AddTask",
+  },
 };
