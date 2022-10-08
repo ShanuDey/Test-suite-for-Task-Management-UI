@@ -14,7 +14,12 @@ jobs:
         run: npm ci
 
       - name: Test
-        run: npm run ci #### Change it as per headless CI script
+        run: npm run ci:all
+
+      - uses: JasonEtco/create-an-issue@v2
+        if: failure()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/upload-artifact@v3
         if: always()
@@ -26,6 +31,7 @@ jobs:
     name: Generate Allure Report
     needs: test
     runs-on: ubuntu-latest
+    if: always()
     steps:
       - uses: actions/download-artifact@v3
         with:
