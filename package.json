@@ -17,6 +17,7 @@
     "scripts": {
         "local:chrome": "wdio run ./config/local/wdio.chrome.conf.js",
         "local:firefox": "wdio run ./config/local/wdio.firefox.conf.js",
+        "ci:chrome": "wdio run ./config/ci/wdio.chrome.conf.js",
         "ci:all": "wdio run ./config/ci/wdio.all.conf.js"
     }
 }

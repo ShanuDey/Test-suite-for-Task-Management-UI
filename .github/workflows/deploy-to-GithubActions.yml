@@ -19,7 +19,7 @@ jobs:
         run: npm ci
 
       - name: Test
-        run: npm run ci:all
+        run: npm run ci:chrome
 
       - uses: actions/upload-artifact@v3
         if: always()
