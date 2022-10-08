@@ -4,6 +4,8 @@ exports.config = {
   ...config,
   // Level of logging verbosity: trace | debug | info | warn | error | silent
   logLevel: "error",
+  // Default timeout for all waitFor* commands.
+  waitforTimeout: 30000,
   capabilities: [
     {
       // maxInstances can get overwritten per capability. So if you have an in-house Selenium
