@@ -21,11 +21,6 @@ jobs:
       - name: Test
         run: npm run ci:all
 
-      - uses: JasonEtco/create-an-issue@v2
-        if: failure()
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
       - uses: actions/upload-artifact@v3
         if: always()
         with:
