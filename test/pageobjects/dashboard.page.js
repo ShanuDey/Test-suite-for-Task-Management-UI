@@ -39,11 +39,24 @@ class DashboardPage extends Page {
 
   taskListItemStatusCheckbox(task) {
     return $(
-      `//div[@aria-labelledby='tasks-listitem-label-${task.replace(
+      `//input[@aria-labelledby='tasks-listitem-label-${task.replace(
         /\s/g,
         ""
       )}']`
     );
+  }
+
+  taskItemDeleteButton(task) {
+    return $(
+      `//div[@id='tasks-listitem-label-${task.replace(
+        /\s/g,
+        ""
+      )}']//ancestor::li//button[@id='delete-icon']`
+    );
+  }
+
+  get logoutButton() {
+    return $("//button[@id='LogoutButton']");
   }
 }
 
