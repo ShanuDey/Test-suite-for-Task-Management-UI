@@ -58,6 +58,15 @@ class DashboardPage extends Page {
   get logoutButton() {
     return $("//button[@id='LogoutButton']");
   }
+
+  taskItemCheckbox(task) {
+    return $(
+      `//div[@id='tasks-listitem-label-${task.replace(
+        /\s/g,
+        ""
+      )}']/preceding-sibling::div//input`
+    );
+  }
 }
 
 module.exports = new DashboardPage();

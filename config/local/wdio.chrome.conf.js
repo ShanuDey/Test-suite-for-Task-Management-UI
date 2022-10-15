@@ -23,6 +23,6 @@ exports.config = {
   baseUrl: "http://localhost:3000/task-management-ui#",
   cucumberOpts: {
     ...config.cucumberOpts,
-    tagExpression: "@DeleteTask",
+    tagExpression: "@ChangeTaskStatus",
   },
 };

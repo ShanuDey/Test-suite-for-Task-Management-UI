@@ -38,3 +38,16 @@ Then(/^I verify "(.*)" is deleted from the tasklist$/, async (task) => {
 Then(/^I logout from the dashboard$/, async() => {
   await DashboardPage.logoutButton.click();
 })
+
+When(/^I change "(.*)" status from (.*) to (.*)$/, async (task, status, newstatus) => {
+  if (status !== newstatus) {
+    await DashboardPage.taskItemCheckbox(task).click();
+  }
+});
+
+Then(/^I verify "(.*)" status is changed to (.*)$/, async(task, status) => {
+  if (status === "Completed")
+      expect(DashboardPage.taskListItemStatusCheckbox(task)).toBeChecked();
+    else
+      expect(DashboardPage.taskListItemStatusCheckbox(task)).not.toBeChecked();
+});
