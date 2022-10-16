@@ -51,3 +51,14 @@ Then(/^I verify "(.*)" status is changed to (.*)$/, async(task, status) => {
     else
       expect(DashboardPage.taskListItemStatusCheckbox(task)).not.toBeChecked();
 });
+
+When(/^I update "(.*)" to "(.*)" on (.*) as (.*) in the tasklist$/, async(task, newtask, newdate, newstatus) => {
+  await DashboardPage.taskListItem(task).doubleClick();
+  await DashboardPage.editTaskTextarea.setValue(newtask);
+  await DashboardPage.editTaskDate.setValue(newdate);
+  const currentStatus = await DashboardPage.editTaskStatus.getText();
+  if(currentStatus !== newstatus) {
+    await DashboardPage.editTaskStatus.click();
+  }
+  await DashboardPage.editTaskSubmitButton.click();
+});

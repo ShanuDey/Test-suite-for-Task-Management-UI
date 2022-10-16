@@ -67,6 +67,22 @@ class DashboardPage extends Page {
       )}']/preceding-sibling::div//input`
     );
   }
+
+  get editTaskTextarea() {
+    return $("//textarea[@id='input-textarea']");
+  }
+
+  get editTaskDate() {
+    return $("//form[@id='edit-task-form']//input[@id='date']");
+  }
+
+  get editTaskStatus() {
+    return $("//form[@id='edit-task-form']/div[2]//span");
+  }
+
+  get editTaskSubmitButton() {
+    return $("//form[@id='edit-task-form']//button[@id='submit-button']");
+  }
 }
 
 module.exports = new DashboardPage();
