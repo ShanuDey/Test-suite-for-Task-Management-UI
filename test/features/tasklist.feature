@@ -35,7 +35,7 @@ Feature: This is for tasklist test scenario automation
     Then I verify "<task>" on <date> as <status> is added in the tasklist
     When I change "<task>" status from <status> to <newstatus>
     Then I verify "<task>" status is changed to <newstatus>
-    When I delete "<task>" by clicking on delete icon
+      And I delete "<task>" by clicking on delete icon
       And I logout from the dashboard
 
     Examples:
@@ -43,13 +43,13 @@ Feature: This is for tasklist test scenario automation
         | Change status task | 04/14/2021 | Completed | Incomplete |
 
   @UpdateTask
-  Scenario Outline: Change task status in the task list
+  Scenario Outline: Update task in the task list
     When I click on the text area of add todo input
       And I add "<task>" on <date> as <status>
     Then I verify "<task>" on <date> as <status> is added in the tasklist
     When I update "<task>" to "<newtask>" on <newdate> as <newstatus> in the tasklist
     Then I verify "<newtask>" on <newdate> as <newstatus> is added in the tasklist
-    When I delete "<newtask>" by clicking on delete icon
+      And I delete "<newtask>" by clicking on delete icon
       And I logout from the dashboard
 
     Examples:
