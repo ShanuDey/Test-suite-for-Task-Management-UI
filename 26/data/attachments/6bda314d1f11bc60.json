@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//div[@aria-labelledby='tasks-listitem-label-Addasampletask']"
-}
