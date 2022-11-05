@@ -22,8 +22,9 @@ exports.config = {
       // excludeDriverLogs: ['bugreport', 'server'],
     },
   ],
-
-  onComplete: function () {
-    console.log("Test Execution Completed");
-  },
+  services: [
+    ['chromedriver', {
+        chromedriverCustomPath: process.env.CHROMEWEBDRIVER || "",
+    }]
+  ],
 };
