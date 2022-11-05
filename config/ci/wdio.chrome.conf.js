@@ -24,7 +24,7 @@ exports.config = {
   ],
   services: [
     ['chromedriver', {
-        chromedriverCustomPath: process.env.CHROMEWEBDRIVER || "",
+        chromedriverCustomPath: `${process.env.CHROMEWEBDRIVER}/chromedriver` || "", // chromedriver for github action ubuntu-latest runner
     }]
   ],
 };
