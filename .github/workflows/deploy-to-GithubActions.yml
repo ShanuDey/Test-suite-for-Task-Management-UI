@@ -24,6 +24,12 @@ jobs:
       - uses: actions/upload-artifact@v3
         if: always()
         with:
+          name: wdio-logs
+          path: wdio-logs
+      
+      - uses: actions/upload-artifact@v3
+        if: always()
+        with:
           name: allure-results
           path: allure-results
 
