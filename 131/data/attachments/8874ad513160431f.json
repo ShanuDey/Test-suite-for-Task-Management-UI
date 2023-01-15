@@ -1,0 +1,183 @@
+{
+  "actions": [
+    {
+      "type": "pointer",
+      "id": "pointer1",
+      "parameters": {
+        "pointerType": "mouse"
+      },
+      "actions": [
+        {
+          "type": "pointerMove",
+          "origin": {
+            "sessionId": "a7e7c30e944e4cd00ec0b9b788208fbb",
+            "elementId": "bf9cd28b-d3dd-43bc-9c77-3a85418fe92d",
+            "element-6066-11e4-a52e-4f735466cecf": "bf9cd28b-d3dd-43bc-9c77-3a85418fe92d",
+            "selector": "//div[@id='tasks-listitem-label-Updateasampletask']",
+            "parent": {
+              "sessionId": "a7e7c30e944e4cd00ec0b9b788208fbb",
+              "capabilities": {
+                "acceptInsecureCerts": true,
+                "browserName": "chrome",
+                "browserVersion": "108.0.5359.124",
+                "chrome": {
+                  "chromedriverVersion": "108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016})",
+                  "userDataDir": "/tmp/.com.google.Chrome.4bgNHh"
+                },
+                "goog:chromeOptions": {
+                  "debuggerAddress": "localhost:39347"
+                },
+                "networkConnectionEnabled": false,
+                "pageLoadStrategy": "normal",
+                "platformName": "linux",
+                "proxy": {},
+                "setWindowRect": true,
+                "strictFileInteractability": false,
+                "timeouts": {
+                  "implicit": 0,
+                  "pageLoad": 300000,
+                  "script": 30000
+                },
+                "unhandledPromptBehavior": "dismiss and notify",
+                "webauthn:extension:credBlob": true,
+                "webauthn:extension:largeBlob": true,
+                "webauthn:virtualAuthenticators": true
+              },
+              "config": {
+                "specs": [
+                  "./test/features/**/*.feature"
+                ],
+                "suites": {},
+                "exclude": [],
+                "outputDir": "wdio-logs",
+                "logLevel": "info",
+                "logLevels": {},
+                "excludeDriverLogs": [],
+                "bail": 0,
+                "waitforInterval": 500,
+                "waitforTimeout": 10000,
+                "framework": "cucumber",
+                "reporters": [
+                  "spec",
+                  [
+                    "allure",
+                    {
+                      "outputDir": "allure-results"
+                    }
+                  ]
+                ],
+                "services": [
+                  [
+                    "chromedriver",
+                    {
+                      "chromedriverCustomPath": "/usr/local/share/chrome_driver/chromedriver"
+                    }
+                  ]
+                ],
+                "maxInstances": 10,
+                "maxInstancesPerCapability": 100,
+                "filesToWatch": [],
+                "connectionRetryTimeout": 120000,
+                "connectionRetryCount": 3,
+                "execArgv": [],
+                "runnerEnv": {},
+                "runner": "local",
+                "specFileRetries": 0,
+                "specFileRetriesDelay": 0,
+                "specFileRetriesDeferred": false,
+                "reporterSyncInterval": 100,
+                "reporterSyncTimeout": 5000,
+                "cucumberFeaturesWithLineNumbers": [],
+                "autoCompileOpts": {
+                  "autoCompile": true,
+                  "tsNodeOpts": {
+                    "transpileOnly": true
+                  },
+                  "babelOpts": {}
+                },
+                "mochaOpts": {
+                  "timeout": 10000
+                },
+                "jasmineOpts": {
+                  "defaultTimeoutInterval": 10000
+                },
+                "cucumberOpts": {
+                  "timeout": 60000,
+                  "require": [
+                    "./test/step-definitions/*.js"
+                  ],
+                  "backtrace": false,
+                  "requireModule": [],
+                  "dryRun": false,
+                  "failFast": false,
+                  "snippets": true,
+                  "source": true,
+                  "strict": false,
+                  "tagExpression": "",
+                  "ignoreUndefinedDefinitions": false
+                },
+                "onPrepare": [],
+                "onWorkerStart": [],
+                "onWorkerEnd": [],
+                "before": [],
+                "beforeSession": [],
+                "beforeSuite": [],
+                "beforeHook": [],
+                "beforeTest": [],
+                "beforeCommand": [],
+                "afterCommand": [],
+                "afterTest": [],
+                "afterHook": [],
+                "afterSuite": [],
+                "afterSession": [],
+                "after": [],
+                "onComplete": [
+                  null
+                ],
+                "onReload": [],
+                "beforeFeature": [],
+                "beforeScenario": [],
+                "beforeStep": [],
+                "afterStep": [
+                  null
+                ],
+                "afterScenario": [],
+                "afterFeature": [],
+                "baseUrl": "https://shanudey.github.io/task-management-ui/#",
+                "_": [
+                  "run"
+                ],
+                "$0": "node_modules/.bin/wdio",
+                "config-path": "./config/ci/wdio.chrome.conf.js",
+                "ignoredWorkerServices": []
+              }
+            },
+            "isReactElement": false
+          },
+          "x": 0,
+          "y": 0
+        },
+        {
+          "type": "pointerDown",
+          "button": 0
+        },
+        {
+          "type": "pointerUp",
+          "button": 0
+        },
+        {
+          "type": "pause",
+          "duration": 10
+        },
+        {
+          "type": "pointerDown",
+          "button": 0
+        },
+        {
+          "type": "pointerUp",
+          "button": 0
+        }
+      ]
+    }
+  ]
+}
