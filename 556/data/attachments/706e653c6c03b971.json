@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@role='alert']\"}\n  (Session info: chrome-headless-shell=122.0.6261.111)",
-  "stacktrace": "#0 0x5e578f58fec3 <unknown>\n#1 0x5e578f287ce6 <unknown>\n#2 0x5e578f2d2e48 <unknown>\n#3 0x5e578f2d2f01 <unknown>\n#4 0x5e578f3163f4 <unknown>\n#5 0x5e578f2f4edd <unknown>\n#6 0x5e578f313899 <unknown>\n#7 0x5e578f2f4c53 <unknown>\n#8 0x5e578f2c5db3 <unknown>\n#9 0x5e578f2c677e <unknown>\n#10 0x5e578f5557fb <unknown>\n#11 0x5e578f559815 <unknown>\n#12 0x5e578f543111 <unknown>\n#13 0x5e578f55a3a2 <unknown>\n#14 0x5e578f5271ef <unknown>\n#15 0x5e578f57e4b8 <unknown>\n#16 0x5e578f57e6b3 <unknown>\n#17 0x5e578f58f074 <unknown>\n#18 0x723263294ac3 <unknown>\n"
-}
