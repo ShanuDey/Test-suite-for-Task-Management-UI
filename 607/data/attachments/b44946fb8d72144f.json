@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@id='add-button']\"}\n  (Session info: chrome-headless-shell=124.0.6367.60)",
-  "stacktrace": "#0 0x55d5f189be33 <unknown>\n#1 0x55d5f158b567 <unknown>\n#2 0x55d5f15d627d <unknown>\n#3 0x55d5f15d6331 <unknown>\n#4 0x55d5f1619624 <unknown>\n#5 0x55d5f15f838d <unknown>\n#6 0x55d5f1616ae2 <unknown>\n#7 0x55d5f15f8103 <unknown>\n#8 0x55d5f15c91ba <unknown>\n#9 0x55d5f15c9b8e <unknown>\n#10 0x55d5f186059b <unknown>\n#11 0x55d5f186434b <unknown>\n#12 0x55d5f184c681 <unknown>\n#13 0x55d5f1864eb2 <unknown>\n#14 0x55d5f18316af <unknown>\n#15 0x55d5f188b428 <unknown>\n#16 0x55d5f188b600 <unknown>\n#17 0x55d5f189af84 <unknown>\n#18 0x7f331d894ac3 <unknown>\n"
-}
