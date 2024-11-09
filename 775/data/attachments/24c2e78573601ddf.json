@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id='email']\"}\n  (Session info: chrome=130.0.6723.58)",
-  "stacktrace": "#0 0x561504ce90aa <unknown>\n#1 0x5615048001a0 <unknown>\n#2 0x56150484cd06 <unknown>\n#3 0x56150484cfa1 <unknown>\n#4 0x561504892344 <unknown>\n#5 0x561504870dad <unknown>\n#6 0x56150488f866 <unknown>\n#7 0x561504870b23 <unknown>\n#8 0x56150483f990 <unknown>\n#9 0x56150484096e <unknown>\n#10 0x561504cb516b <unknown>\n#11 0x561504cb8f68 <unknown>\n#12 0x561504ca264c <unknown>\n#13 0x561504cb9ae7 <unknown>\n#14 0x561504c874af <unknown>\n#15 0x561504cd74f8 <unknown>\n#16 0x561504cd76c0 <unknown>\n#17 0x561504ce7f26 <unknown>\n#18 0x7fccdbe94ac3 <unknown>\n"
-}
