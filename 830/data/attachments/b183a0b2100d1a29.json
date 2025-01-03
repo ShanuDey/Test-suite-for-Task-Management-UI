@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//form[@id='edit-task-form']//button[@id='submit-button']"
-}
