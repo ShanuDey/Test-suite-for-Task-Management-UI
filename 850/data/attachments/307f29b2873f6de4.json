@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@id='tasks-listitem-label-Deleteasampletask']\"}\n  (Session info: chrome=131.0.6778.139)",
-  "stacktrace": "#0 0x56210411831a <unknown>\n#1 0x562103c2e6e0 <unknown>\n#2 0x562103c7d3e6 <unknown>\n#3 0x562103c7d681 <unknown>\n#4 0x562103cc2b04 <unknown>\n#5 0x562103ca148d <unknown>\n#6 0x562103cbfed7 <unknown>\n#7 0x562103ca1203 <unknown>\n#8 0x562103c6fcc0 <unknown>\n#9 0x562103c70c9e <unknown>\n#10 0x5621040e5d0b <unknown>\n#11 0x5621040e9c92 <unknown>\n#12 0x5621040d2b3c <unknown>\n#13 0x5621040ea807 <unknown>\n#14 0x5621040b80df <unknown>\n#15 0x562104107578 <unknown>\n#16 0x562104107740 <unknown>\n#17 0x562104117196 <unknown>\n#18 0x7fdedec94ac3 <unknown>\n"
-}
