@@ -20,9 +20,9 @@ exports.config = {
       // excludeDriverLogs: ['bugreport', 'server'],
     },
   ],
-  baseUrl: "https://shanudey.github.io/task-management-ui/#",
-  cucumberOpts: {
-    ...config.cucumberOpts,
-    tagExpression: "@UpdateTask",
-  },
+  baseUrl: "http://localhost:3000/#",
+  // cucumberOpts: {
+  //   ...config.cucumberOpts,
+  //   tagExpression: "@UpdateTask",
+  // },
 };
