@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@aria-labelledby='tasks-listitem-label-Deleteasampletask']\"}\n  (Session info: chrome=142.0.7444.59)",
-  "stacktrace": "#0 0x55f7027a4aea <unknown>\n#1 0x55f7021f0cdb <unknown>\n#2 0x55f7022436c4 <unknown>\n#3 0x55f702243901 <unknown>\n#4 0x55f7022928b4 <unknown>\n#5 0x55f70228fc87 <unknown>\n#6 0x55f702235aca <unknown>\n#7 0x55f7022367d1 <unknown>\n#8 0x55f70276bab9 <unknown>\n#9 0x55f70276ea8c <unknown>\n#10 0x55f702754d49 <unknown>\n#11 0x55f70276f685 <unknown>\n#12 0x55f70273c6c3 <unknown>\n#13 0x55f7027917d8 <unknown>\n#14 0x55f7027919b3 <unknown>\n#15 0x55f7027a3a83 <unknown>\n#16 0x7f4b06a9caa4 <unknown>\n#17 0x7f4b06b29c6c <unknown>\n"
-}
