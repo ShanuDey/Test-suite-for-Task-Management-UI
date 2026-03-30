@@ -1,0 +1,187 @@
+{
+  "actions": [
+    {
+      "type": "pointer",
+      "id": "pointer1",
+      "parameters": {
+        "pointerType": "mouse"
+      },
+      "actions": [
+        {
+          "type": "pointerMove",
+          "origin": {
+            "sessionId": "c01a98dc44deed05290ad6ab73f85ed7",
+            "elementId": "f.947761DE3E9EA95A3B6AE9A9E5649AAE.d.BE8D287D5FDA0959F05BBAAD8BCE9087.e.565",
+            "element-6066-11e4-a52e-4f735466cecf": "f.947761DE3E9EA95A3B6AE9A9E5649AAE.d.BE8D287D5FDA0959F05BBAAD8BCE9087.e.565",
+            "selector": "//div[@id='tasks-listitem-label-Updateasampletask']",
+            "parent": {
+              "sessionId": "c01a98dc44deed05290ad6ab73f85ed7",
+              "capabilities": {
+                "acceptInsecureCerts": true,
+                "browserName": "chrome",
+                "browserVersion": "146.0.7680.164",
+                "chrome": {
+                  "chromedriverVersion": "146.0.7680.165 (4b989da09e15a7dc0de0785cb5ff232aadae3f0f-refs/branch-heads/7680@{#2932})",
+                  "userDataDir": "/tmp/org.chromium.Chromium.scoped_dir.MYXP7V"
+                },
+                "fedcm:accounts": true,
+                "goog:chromeOptions": {
+                  "debuggerAddress": "localhost:39577"
+                },
+                "goog:processID": 2418,
+                "networkConnectionEnabled": false,
+                "pageLoadStrategy": "normal",
+                "platformName": "linux",
+                "proxy": {},
+                "setWindowRect": true,
+                "strictFileInteractability": false,
+                "timeouts": {
+                  "implicit": 0,
+                  "pageLoad": 300000,
+                  "script": 30000
+                },
+                "unhandledPromptBehavior": "dismiss and notify",
+                "webauthn:extension:credBlob": true,
+                "webauthn:extension:largeBlob": true,
+                "webauthn:extension:minPinLength": true,
+                "webauthn:extension:prf": true,
+                "webauthn:virtualAuthenticators": true
+              },
+              "config": {
+                "specs": [
+                  "./test/features/**/*.feature"
+                ],
+                "suites": {},
+                "exclude": [],
+                "outputDir": "wdio-logs",
+                "logLevel": "info",
+                "logLevels": {},
+                "excludeDriverLogs": [],
+                "bail": 0,
+                "waitforInterval": 500,
+                "waitforTimeout": 10000,
+                "framework": "cucumber",
+                "reporters": [
+                  "spec",
+                  [
+                    "allure",
+                    {
+                      "outputDir": "allure-results"
+                    }
+                  ]
+                ],
+                "services": [
+                  [
+                    "chromedriver",
+                    {
+                      "chromedriverCustomPath": "/usr/local/share/chromedriver-linux64/chromedriver"
+                    }
+                  ]
+                ],
+                "maxInstances": 10,
+                "maxInstancesPerCapability": 100,
+                "filesToWatch": [],
+                "connectionRetryTimeout": 120000,
+                "connectionRetryCount": 3,
+                "execArgv": [],
+                "runnerEnv": {},
+                "runner": "local",
+                "specFileRetries": 0,
+                "specFileRetriesDelay": 0,
+                "specFileRetriesDeferred": false,
+                "reporterSyncInterval": 100,
+                "reporterSyncTimeout": 5000,
+                "cucumberFeaturesWithLineNumbers": [],
+                "autoCompileOpts": {
+                  "autoCompile": true,
+                  "tsNodeOpts": {
+                    "transpileOnly": true
+                  },
+                  "babelOpts": {}
+                },
+                "mochaOpts": {
+                  "timeout": 10000
+                },
+                "jasmineOpts": {
+                  "defaultTimeoutInterval": 10000
+                },
+                "cucumberOpts": {
+                  "timeout": 60000,
+                  "require": [
+                    "./test/step-definitions/*.js"
+                  ],
+                  "backtrace": false,
+                  "requireModule": [],
+                  "dryRun": false,
+                  "failFast": false,
+                  "snippets": true,
+                  "source": true,
+                  "strict": false,
+                  "tagExpression": "",
+                  "ignoreUndefinedDefinitions": false
+                },
+                "onPrepare": [],
+                "onWorkerStart": [],
+                "onWorkerEnd": [],
+                "before": [],
+                "beforeSession": [],
+                "beforeSuite": [],
+                "beforeHook": [],
+                "beforeTest": [],
+                "beforeCommand": [],
+                "afterCommand": [],
+                "afterTest": [],
+                "afterHook": [],
+                "afterSuite": [],
+                "afterSession": [],
+                "after": [],
+                "onComplete": [
+                  null
+                ],
+                "onReload": [],
+                "beforeFeature": [],
+                "beforeScenario": [],
+                "beforeStep": [],
+                "afterStep": [
+                  null
+                ],
+                "afterScenario": [],
+                "afterFeature": [],
+                "baseUrl": "https://shanudey.github.io/task-management-ui/#",
+                "_": [
+                  "run"
+                ],
+                "$0": "node_modules/.bin/wdio",
+                "config-path": "./config/ci/wdio.chrome.conf.js",
+                "ignoredWorkerServices": []
+              }
+            },
+            "isReactElement": false
+          },
+          "x": 0,
+          "y": 0
+        },
+        {
+          "type": "pointerDown",
+          "button": 0
+        },
+        {
+          "type": "pointerUp",
+          "button": 0
+        },
+        {
+          "type": "pause",
+          "duration": 10
+        },
+        {
+          "type": "pointerDown",
+          "button": 0
+        },
+        {
+          "type": "pointerUp",
+          "button": 0
+        }
+      ]
+    }
+  ]
+}
