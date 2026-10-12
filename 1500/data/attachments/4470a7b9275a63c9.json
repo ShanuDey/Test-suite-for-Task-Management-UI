@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@id='tasks-listitem-label-Changestatustask']//ancestor::li//button[@id='delete-icon']"
+}
